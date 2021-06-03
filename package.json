@@ -1,0 +1,13 @@
+{
+  "name": "js_project_template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "prettier": "^2.3.0"
+  }
+}
