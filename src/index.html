@@ -7,7 +7,11 @@
     <title>JavaScript Demo</title>
   </head>
   <body>
-    Hello World
+    <div data-controller="hello">
+      <h2>Hello World</h2>
+      <input type="text" data-hello-target="input" readonly value="0" />
+      <button data-action="hello#increment">+</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

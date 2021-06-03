@@ -9,5 +9,8 @@
   "devDependencies": {
     "parcel": "^2.0.0-beta.2",
     "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "stimulus": "^2.0.0"
   }
 }
